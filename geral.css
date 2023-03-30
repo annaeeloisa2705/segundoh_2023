@@ -1,6 +1,6 @@
 :root {
     --corfundo: #FCD76F;
-    --corprincipal: ; 
+    --corprincipal: #ffffff; 
 }
 
 .banner {
@@ -9,7 +9,18 @@
     background-color: var(--corfundo);
 
 }   
-.body{
-    margin: 0%;
-    padding: 0%;
+
+.conteudo {
+    width: 100%;
+    height: 450px;
+    background-color: var(--corprincipal);
+}
+.rodape {
+    width: 100%;
+    height: 50px;
+    background-color: var(--corfundo);
+}
+
+.imagem1 {
+    
 }

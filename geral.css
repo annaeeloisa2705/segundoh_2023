@@ -1,4 +1,15 @@
 :root {
-    --corfundo: #FFFFFF;
-    --corprincipal: #FCD76F; 
+    --corfundo: #FCD76F;
+    --corprincipal: ; 
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: var(--corfundo);
+
+}   
+.body{
+    margin: 0%;
+    padding: 0%;
 }

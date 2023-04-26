@@ -1,52 +1,67 @@
 :root {
-    --corfundo: #87cefa;
-    --corprincipal: #ffffff; 
-    --fundo-banner-active:#00BFFF;
+    --fundo-banner-active:#00569d;
+    --color-base: #87cefa;
+    --cor-letra-banner:#004987;
+    --cor-letra-banner-active:#86beda;
 }
 
 .banner {
     width: 100%;
-    height: 100px;
-    background-color: var(--corfundo);
+    height: 27px;
+    background-color: var(--color-base);
 
 }   
 
 .conteudo {
-    width: 100%;
-    height: 450px;
+    height: 536px;
     background-color: var(--corprincipal);
 }
+
 .rodape {
+    display: block;
     width: 100%;
-    height: 50px;
-    background-color: var(--corfundo);
+    height: 30px;
+    background-color: var(--color-base);
     text-align: center;
 }
+
 .banner ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--corfundo);
+    background-color: var(--color-base);
   }
-  .banner li {
+
+.banner li {
     float: left;
   }
-  .banner li:last-child {
+
+.banner li:last-child {
     border-right: none;
   }
-  .banner li a {
+
+.banner li a {
     display: block;
-    color: var(--cor-letra-menu);
+    color: var(--cor-letra-banner);
     text-align: center;
     padding: 4px 20px;
     text-decoration: none;
   }
-  .banner li a:hover:not(.active) {
-    background-color: var(--fundo-menu-active);
-    color: var(--cor-letra-menu-active);
+
+.banner li a:hover:not(.active) {
+    background-color: var(--fundo-banner-active);
+    color: var(--cor-letra-banner-active);
   }
-  .active {
-    background-color: var(--fundo-menu-active);
-    color: var(--cor-letra-menu-active);
+
+.active {
+    background-color: var(--color-base);
+    color: var(--cor-letra-banner);
   }
+
+.rodape p {
+  padding-top: 5px;
+  color: var(--cor-letra-banner);
+}
